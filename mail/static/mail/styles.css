@@ -1,0 +1,39 @@
+textarea {
+    min-height: 400px;
+}
+.read {
+    border: solid 1px;
+    background-color: #eeeeee;
+    height: 2rem;
+}
+.not_read {
+    border: solid 1px;
+    background-color: aqua;
+}
+
+.sender_column {
+    height: 2rem;
+    text-align: start;
+    margin-right: 6rem;
+}
+
+.subject_column {
+    margin-right: 6rem;
+}
+.timestamp_column {
+    display: inline-flex;
+}
+
+p {
+    margin: 0px;
+}
+
+.archive_form {
+    display: inline-block;
+    margin-bottom: 1.5rem;
+}
+
+.reply_button {
+    display: inline-block;
+    margin-top: 1.5rem;
+}
